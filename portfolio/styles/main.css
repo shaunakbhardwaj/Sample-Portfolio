@@ -1,0 +1,455 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------------------Hero section---------------------------------*/
+#landing {
+  -webkit-box-shadow: 0 5px 10px black;
+          box-shadow: 0 5px 10px black;
+  background-image: linear-gradient(120deg, #35ECCF, #DAD426, #1CAED3, #6F98E0, #CD80EF);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#landing .nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#landing .nav .logo {
+  color: white;
+  position: absolute;
+  margin: 2.6% 0 0 7.7%;
+  font-weight: 700;
+  left: 1.5%;
+  font-size: 200%;
+}
+
+#landing .nav ul {
+  position: absolute;
+  right: 2%;
+  top: 8%;
+  width: 50%;
+}
+
+#landing .nav ul li {
+  padding: 0 12%;
+  display: inline-block;
+  list-style: none;
+}
+
+#landing .body h1 {
+  position: absolute;
+  color: white;
+  font-weight: 900;
+}
+
+#landing .body .line1 {
+  position: absolute;
+  top: 12%;
+  left: 9.3%;
+  height: 25%;
+}
+
+#landing .body .facebook {
+  position: absolute;
+  top: 30%;
+  left: 8.9%;
+  height: 25%;
+}
+
+#landing .body .linkedin {
+  position: absolute;
+  top: 40%;
+  left: 8.8%;
+  height: 25%;
+}
+
+#landing .body .twitter {
+  position: absolute;
+  top: 50%;
+  left: 8.8%;
+  height: 25%;
+}
+
+#landing .body .line2 {
+  position: absolute;
+  top: 68%;
+  left: 9.3%;
+  height: 25%;
+}
+
+#landing .body .iam {
+  top: 32.5%;
+  left: 54.4%;
+  font-size: 150%;
+  font-weight: 300;
+}
+
+#landing .body .name {
+  font-size: 800%;
+  top: 30%;
+  left: 53.9%;
+  letter-spacing: -0.03em;
+}
+
+#landing .body .title1 {
+  font-size: 800%;
+  top: 45%;
+  left: 53.9%;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 2px #fff;
+  letter-spacing: 0.04em;
+}
+
+#landing .body .title2 {
+  font-size: 800%;
+  top: 60%;
+  left: 53.9%;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 2px #fff;
+  letter-spacing: 0.04em;
+}
+
+/*-----------------------------ABout section-------------------------*/
+#about {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+}
+
+#about img {
+  position: absolute;
+  width: 25%;
+  top: 20%;
+  left: 9.5%;
+}
+
+#about h1 {
+  position: absolute;
+  font-size: 250%;
+  left: 54%;
+  top: 35%;
+}
+
+#about p {
+  font-size: 120%;
+  position: absolute;
+  width: 35%;
+  left: 54%;
+  top: 44%;
+}
+
+#about a {
+  font-size: 120%;
+  text-align: center;
+  padding: 0.5%;
+  width: 10%;
+  position: absolute;
+  left: 54%;
+  top: 61%;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+#about a:hover {
+  background-color: grey;
+}
+
+/*----------------------------Work section---------------------------*/
+#work {
+  -webkit-box-shadow: 0 -5px 10px black;
+          box-shadow: 0 -5px 10px black;
+  background: #de6161;
+  background: linear-gradient(157deg, #de6161 0%, #2657eb 100%);
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: 200%;
+  color: white;
+}
+
+#work * {
+  position: absolute;
+}
+
+#work img {
+  width: 10%;
+}
+
+#work h1 {
+  left: 25%;
+  position: absolute;
+  font-weight: 900;
+  font-size: 700%;
+}
+
+#work .w1 {
+  top: 10%;
+}
+
+#work .w2 {
+  top: 16%;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 1px #fff;
+}
+
+#work .w3 {
+  top: 22%;
+}
+
+#work .NY {
+  width: 26%;
+  left: 25%;
+  top: 30%;
+}
+
+#work .road {
+  width: 26%;
+  left: 25%;
+  top: 47%;
+}
+
+#work .portfolio {
+  width: 20%;
+  left: 52%;
+  top: 12%;
+}
+
+#work .spiderman {
+  width: 20%;
+  left: 52%;
+  top: 58.5%;
+}
+
+#work a {
+  font-size: 400%;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.5%;
+  width: 30%;
+  position: absolute;
+  left: 47%;
+  top: 79%;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 1px #fff;
+}
+
+#work a:hover {
+  color: #fff;
+}
+
+/*-----------------------about page-----------------------------*/
+#aboutpage {
+  position: absolute;
+  background-image: url("../images/aboutbg.svg");
+  width: 100%;
+  height: 100%;
+}
+
+#aboutpage p {
+  font-size: 160%;
+  line-height: 200%;
+  left: 15%;
+  top: 30%;
+  color: #fff;
+  position: absolute;
+  width: 65%;
+  text-align: center;
+}
+
+#aboutpage .nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#aboutpage .nav .logo {
+  color: white;
+  position: absolute;
+  margin: 2.6% 0 0 7.7%;
+  font-weight: 700;
+  left: 1.5%;
+  font-size: 200%;
+}
+
+#aboutpage .nav ul {
+  position: absolute;
+  right: 2%;
+  top: 8%;
+  width: 50%;
+}
+
+#aboutpage .nav ul li {
+  padding: 0 12%;
+  display: inline-block;
+  list-style: none;
+}
+
+/*----------------------------COntact----------------------------------------*/
+#contactpage {
+  -webkit-box-shadow: 0 5px 10px black;
+          box-shadow: 0 5px 10px black;
+  background: #833ab4;
+  background: -webkit-gradient(linear, left top, right top, from(#833ab4), color-stop(50%, #1db1fd), to(#fc4593));
+  background: linear-gradient(90deg, #833ab4 0%, #1db1fd 50%, #fc4593 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#contactpage .nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#contactpage .nav .logo {
+  color: white;
+  position: absolute;
+  margin: 2.6% 0 0 7.7%;
+  font-weight: 700;
+  left: 1.5%;
+  font-size: 200%;
+}
+
+#contactpage .nav ul {
+  position: absolute;
+  right: 2%;
+  top: 8%;
+  width: 50%;
+}
+
+#contactpage .nav ul li {
+  padding: 0 12%;
+  display: inline-block;
+  list-style: none;
+}
+
+#contactpage .body .mail {
+  font-size: 150%;
+  position: absolute;
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  left: 54.2%;
+  top: 58.5%;
+  padding: 0.5% 5%;
+}
+
+#contactpage .body .mail:hover {
+  background-color: white;
+  color: grey;
+}
+
+#contactpage .body h1 {
+  position: absolute;
+  color: white;
+  font-weight: 900;
+}
+
+#contactpage .body .line1 {
+  position: absolute;
+  top: 12%;
+  left: 9.3%;
+  height: 25%;
+}
+
+#contactpage .body .facebook {
+  position: absolute;
+  top: 30%;
+  left: 8.9%;
+  height: 25%;
+}
+
+#contactpage .body .linkedin {
+  position: absolute;
+  top: 40%;
+  left: 8.8%;
+  height: 25%;
+}
+
+#contactpage .body .twitter {
+  position: absolute;
+  top: 50%;
+  left: 8.8%;
+  height: 25%;
+}
+
+#contactpage .body .line2 {
+  position: absolute;
+  top: 68%;
+  left: 9.3%;
+  height: 25%;
+}
+
+#contactpage .body .title1 {
+  font-size: 500%;
+  top: 35%;
+  left: 54%;
+  color: #fff;
+  letter-spacing: 0.04em;
+}
+
+#contactpage .body .title2 {
+  font-size: 500%;
+  top: 45%;
+  left: 54%;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 2px #fff;
+  letter-spacing: 0.04em;
+}
+
+/*----------------------------------------Work--------------------------------------------------*/
+#workcollection .nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+#workcollection .nav .logo {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px #000;
+  position: absolute;
+  margin: 2.6% 0 0 7.7%;
+  font-weight: 700;
+  left: 1.5%;
+  font-size: 200%;
+}
+
+#workcollection .nav .logo:hover {
+  color: black;
+}
+
+#workcollection .nav ul {
+  position: absolute;
+  right: 2%;
+  top: 8%;
+  width: 50%;
+}
+
+#workcollection .nav ul li {
+  padding: 0 12%;
+  display: inline-block;
+  list-style: none;
+}
+
+#workcollection p {
+  position: absolute;
+  top: 30%;
+  left: 9%;
+  font-weight: 700;
+  font-size: 200%;
+  width: 80%;
+}
+
+#workcollection img {
+  position: absolute;
+  top: 60%;
+  left: 9%;
+  width: 80%;
+}
+/*# sourceMappingURL=main.css.map */

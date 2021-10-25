@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------------------Hero section---------------------------------*/
+#landing{
+    box-shadow:0 5px 10px black;    
+    background-image: linear-gradient(120deg, #35ECCF, #DAD426, #1CAED3, #6F98E0, #CD80EF);
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .nav{        
+        a{
+            text-decoration: none;
+            color: #fff;            
+        }
+        .logo{
+
+            color: white;
+            position: absolute;
+            margin: 2.6% 0 0 7.7%;
+            font-weight: 700;
+            left: 1.5%;
+            font-size: 200%;
+        }
+
+        ul{         
+            position: absolute;
+            right: 2%;
+            top: 8%;
+            width: 50%;            
+            
+            li{
+                padding: 0 12%;
+                display: inline-block;
+                list-style: none;
+            }
+        }
+    }
+    .body{
+        h1{
+            position: absolute;
+            color: white;
+            font-weight: 900;
+           
+        }
+        .line1{
+            position: absolute;
+            top: 12%;
+            left: 9.3%;
+            height: 25%;
+        }
+        .facebook{
+            position: absolute;
+            top: 30%;
+            left: 8.9%;
+            height: 25%;            
+        }
+        .linkedin{
+            position: absolute;
+            top: 40%;
+            left: 8.8%;
+            height: 25%;  
+        }
+        .twitter{
+            position: absolute;
+            top: 50%;
+            left: 8.8%;
+            height: 25%;  
+        }
+        .line2{
+            position: absolute;
+            top: 68%;
+            left: 9.3%;
+            height: 25%;
+        }
+        .iam{
+            top: 32.5%;
+            left: 54.4%;
+            font-size: 150%;
+            font-weight: 300;
+        }
+        .name{        
+            font-size: 800%;
+            top: 30%;
+            left: 53.9%; 
+            letter-spacing: -0.03em;            
+        }
+        .title1{
+            font-size: 800%;
+            top: 45%;
+            left: 53.9%;
+            color: rgba($color: #fff, $alpha:0);
+            -webkit-text-stroke: 2px #fff;
+            letter-spacing: 0.04em;
+        }
+        .title2{
+            font-size: 800%;
+            top: 60%;
+            left: 53.9%;
+            color: rgba($color: #fff, $alpha:0);
+            -webkit-text-stroke: 2px #fff;
+            letter-spacing: 0.04em;
+        }
+    }
+}
+
+/*-----------------------------ABout section-------------------------*/
+#about{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%; 
+    
+
+    img{
+        position: absolute;
+        width: 25%;
+        top: 20%;
+        left: 9.5%
+    }
+
+    h1{
+        position: absolute;
+        font-size: 250%;
+        left: 54%;
+        top: 35%;
+    }
+
+    p{
+        font-size: 120%;
+        position: absolute;
+        width: 35%;
+        left: 54%;
+        top: 44%
+    }
+    
+    a{
+        font-size: 120%;
+        text-align: center;
+        padding: 0.5%;
+        width: 10%;        
+        position: absolute;
+        left: 54%;
+        top: 61%;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+    a:hover{
+        background-color: grey;
+    }
+
+
+}
+
+/*----------------------------Work section---------------------------*/
+#work{
+    box-shadow:0 -5px 10px black;
+    background: rgb(222,97,97);
+    background: linear-gradient(157deg, rgba(222,97,97,1) 0%, rgba(38,87,235,1) 100%); position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 200%; 
+    color: white;
+    *{
+        position: absolute;
+    }
+    img{
+        width: 10%;
+    }
+    h1{
+        left: 25%; 
+        position: absolute;
+        font-weight: 900;
+        font-size: 700%;
+    }
+    .w1{
+        top: 10%;       
+    }
+    .w2{        
+        top: 16%;
+        color: rgba($color: #fff, $alpha:0);
+        -webkit-text-stroke: 1px #fff;  
+    }
+    .w3{
+        top: 22%; 
+    }
+
+    .NY{
+        width: 26%;
+        left: 25%; 
+        top: 30%;
+    }
+
+    .road{
+        width: 26%;
+        left: 25%; 
+        top: 47%
+    }
+
+    .portfolio{
+        width: 20%;
+        left: 52%;
+        top: 12%;
+    }
+
+    .spiderman{
+        width: 20%;
+        left: 52%;
+        top: 58.5%
+    }
+
+    a{
+        font-size: 400%;
+        font-weight: 700;
+        text-align: center;
+        padding: 0.5%;
+        width: 30%;        
+        position: absolute;
+        left: 47%;
+        top: 79%;
+        text-decoration: none;
+        color: rgba($color: #fff, $alpha:0);
+        -webkit-text-stroke: 1px #fff;  
+    }
+    a:hover{
+        color:#fff;
+    }
+}
+
+/*-----------------------about page-----------------------------*/
+#aboutpage{
+    position: absolute;
+    background-image: url('../images/aboutbg.svg');    
+    width: 100%;
+    height: 100%;
+    p{
+        
+        font-size: 160% ;
+        line-height: 200%;
+        left: 15%;
+        top: 30%;
+        color: #fff;
+        position: absolute;
+        width:65%;
+        text-align: center;
+    }
+    
+    .nav{        
+        a{
+            text-decoration: none;
+            color: #fff;            
+        }
+        .logo{
+
+            color: white;
+            position: absolute;
+            margin: 2.6% 0 0 7.7%;
+            font-weight: 700;
+            left: 1.5%;
+            font-size: 200%;
+        }
+
+        ul{         
+            position: absolute;
+            right: 2%;
+            top: 8%;
+            width: 50%;            
+            
+            li{
+                padding: 0 12%;
+                display: inline-block;
+                list-style: none;
+            }
+        }
+    }
+}
+
+/*----------------------------COntact----------------------------------------*/
+
+ #contactpage{
+    box-shadow:0 5px 10px black;    
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,177,253,1) 50%, rgba(252,69,147,1) 100%);
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .nav{        
+        a{
+            text-decoration: none;
+            color: #fff;            
+        }
+        .logo{
+
+            color: white;
+            position: absolute;
+            margin: 2.6% 0 0 7.7%;
+            font-weight: 700;
+            left: 1.5%;
+            font-size: 200%;
+        }
+
+        ul{         
+            position: absolute;
+            right: 2%;
+            top: 8%;
+            width: 50%;            
+            
+            li{
+                padding: 0 12%;
+                display: inline-block;
+                list-style: none;
+            }
+        }
+    }
+    .body{
+        .mail{
+            font-size: 150%;
+            position: absolute;
+            text-decoration: none;
+            border: 2px solid white;
+            color: white;
+            left: 54.2%;
+            top: 58.5%;
+            padding: 0.5% 5%;
+        }
+
+        .mail:hover{
+            background-color: white;
+            color: grey
+        }
+        h1{
+            position: absolute;
+            color: white;
+            font-weight: 900;
+           
+        }
+        .line1{
+            position: absolute;
+            top: 12%;
+            left: 9.3%;
+            height: 25%;
+        }
+        .facebook{
+            position: absolute;
+            top: 30%;
+            left: 8.9%;
+            height: 25%;            
+        }
+        .linkedin{
+            position: absolute;
+            top: 40%;
+            left: 8.8%;
+            height: 25%;  
+        }
+        .twitter{
+            position: absolute;
+            top: 50%;
+            left: 8.8%;
+            height: 25%;  
+        }
+        .line2{
+            position: absolute;
+            top: 68%;
+            left: 9.3%;
+            height: 25%;
+        }
+                
+        .title1{
+            font-size: 500%;
+            top: 35%;
+            left: 54%;
+            color: #fff;
+            letter-spacing: 0.04em;
+        }
+        .title2{
+            font-size: 500%;
+            top: 45%;
+            left: 54%;
+            color: rgba($color: #fff, $alpha:0);
+            -webkit-text-stroke: 2px #fff;
+            letter-spacing: 0.04em;
+        }
+    }
+}
+
+/*----------------------------------------Work--------------------------------------------------*/
+
+#workcollection{
+    .nav{        
+        a{
+            text-decoration: none;
+            color: #000;            
+        }
+        .logo{
+
+            color: rgba($color: #000, $alpha:0);
+            -webkit-text-stroke: 1px #000;
+            position: absolute;
+            margin: 2.6% 0 0 7.7%;
+            font-weight: 700;
+            left: 1.5%;
+            font-size: 200%;
+        }
+
+        .logo:hover{
+            color: black;
+        }
+
+        ul{         
+            position: absolute;
+            right: 2%;
+            top: 8%;
+            width: 50%;            
+            
+            li{
+                padding: 0 12%;
+                display: inline-block;
+                list-style: none;
+            }
+        }
+    }
+
+    p{
+        position: absolute;
+        top: 30%;
+        left: 9%;
+        font-weight: 700;
+        font-size: 200%;
+        width: 80%;
+    }
+
+    img{
+        position: absolute;
+        top: 60%;
+        left: 9%;
+        width: 80%;
+    }
+}
